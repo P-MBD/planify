@@ -5,7 +5,7 @@ import Input from '../../../components/Input';
 import Title from '../../../components/Title';
 import styles from './styles';
 
-const Signin = () => {
+const Signin = ({navigation}) => {
     return (
         <SafeAreaView style={styles.container}>
           <Title>Welcome back!</Title>
