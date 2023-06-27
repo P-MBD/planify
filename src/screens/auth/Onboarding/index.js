@@ -10,7 +10,9 @@ const Onboarding = ({navigation}) => {
         <Image
           style={styles.image}
           source={require('../../../assets/onboarding.png')}
-        />    
+        />
+
+        <View style={styles.footer} />
       </View>
 
       <View style={styles.content}>
@@ -20,14 +22,12 @@ const Onboarding = ({navigation}) => {
           productivity.
         </Text>
 
-        <Button onPress={()=> navigation.navigate('Signin')}>Log in</Button>
-        <Button onPress={()=> navigation.navigate('Signup')} type={'blue'}> Get started</Button>
+        <Button onPress={() => navigation.navigate('Signin')}>Log in</Button>
+        <Button onPress={() => navigation.navigate('Signup')} type={'blue'}>
+          Get started
+        </Button>
       </View>
     </View>
-
-
-
-
   );
 };
 
