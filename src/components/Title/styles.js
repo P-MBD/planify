@@ -9,8 +9,10 @@ const styles = StyleSheet.create({
     paddingVertical: 24,
   },
   thin:{
+    fontSize:24,
     fontWeight:'300',
     color:colors.purple,
+    paddingHorizontal: 24,
   },
 });
 

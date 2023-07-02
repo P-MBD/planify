@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, Pressable, SafeAreaView,Text} from 'react-native';
+import Input from '../../../components/Input';
 import Title from '../../../components/Title';
 import styles from './styles';
 
@@ -15,6 +16,8 @@ const AddTask  = ({navigation}) => {
             <Image style={styles.backIcon} source={require('../../../assets/back.png')} />
         </Pressable>
      <Title type="thin">Add New Task</Title>
+     <Text style={styles.label}>Describe the task</Text>
+     <Input outlined placeholder="Type here" />
     </SafeAreaView>
   );
 };
