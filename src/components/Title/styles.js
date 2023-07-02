@@ -8,6 +8,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     paddingVertical: 24,
   },
+  thin:{
+    fontWeight:'300',
+    color:colors.purple,
+  },
 });
 
 export default styles;
